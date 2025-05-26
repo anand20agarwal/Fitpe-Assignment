@@ -1,6 +1,7 @@
-import lung from '../images/lung.svg';
-import teeth from '../images/teeth.svg';
-import bone from '../images/bone.png';
+import lung from '../Images/lung.svg';
+import teeth from '../Images/teeth.svg';
+import bone from '../Images/bone.png';
+
 
 export const healthIndicators = [
   { id: 1, images: lung, parth: 'Lungs', date: '24 Oct 2021', percentage: 70 },
