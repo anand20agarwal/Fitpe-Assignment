@@ -41,7 +41,7 @@
     width: 264px;
     height: 414px;
     position: absolute;
-    background-color: #e4e9e9;
+    background-color: #e9f4f4;
     border-radius: 2rem;
 }
 .input-field{
@@ -60,7 +60,7 @@
 }
 
 .date{
-    margin-left: 400px;
+    margin-left: 382px;
     background-color: #ffffff;
     color: rgb(45, 79, 217);
     font-weight: 300;
@@ -70,6 +70,7 @@
     margin-top: 166px;
     margin-left: 640px;
     position: absolute;
+    
 }
 .card2{
     margin-top: 302px;
@@ -82,7 +83,7 @@
     position: absolute;
 }
 .details{
-     margin-top: 572px;
+     margin-top: 559px;
     margin-left: 790px;
     position: absolute;
     color: #030b3e;
@@ -114,4 +115,24 @@
     font-size: 14px;
     padding: 6px;
   }
+}
+
+
+
+
+
+
+
+
+
+
+.dashboard-container {
+  padding: 1rem;
+  font-family: 'Arial', sans-serif;
+}
+
+.health-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
 }

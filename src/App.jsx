@@ -1,4 +1,5 @@
 import './App.css'
+import AppoinmentMain from './components/Appoinment/AppoinmentMain'
 import Dashbord from './components/Dashbord/Dashbord'
 import Sidebar from './components/Sidebar'
 
@@ -8,10 +9,12 @@ function App() {
     <>
      <div className='frame'>
       <Sidebar/>
-      <Dashbord/>
+      <div>
+      <Dashbord />
+     <AppoinmentMain/>
+     </div>
      </div>
     </>
   )
 }
-
 export default App

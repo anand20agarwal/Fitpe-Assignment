@@ -12,14 +12,11 @@ const data = [
   { name: 'Sun', activity: 28 },
 ];
 
-const Activity = () => {
+const ActivityChart = () => {
   return (
     <div className="activity-chart-container">
-      <div className='first-line'>
-      <h4>Actvity</h4>
-      <p>3 Appoinment in this week</p></div>
-      <ResponsiveContainer width={500} height={100}>
-        <BarChart data={data} margin={{ top: 25, right: 0, left: 20, bottom: 0 }}>
+      <ResponsiveContainer width="100%" height={300}>
+        <BarChart data={data} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
           <XAxis dataKey="name" />
           <Tooltip />
           <Bar dataKey="activity" fill="#8884d8" />
@@ -29,4 +26,4 @@ const Activity = () => {
   );
 };
 
-export default Activity;
+export default ActivityChart;

@@ -1,0 +1,25 @@
+.card-top{
+    display: flex;
+}
+h4{
+    color: blue;
+    margin-top: 0px;
+    margin-left: 11px;
+}
+.appoinment{
+    color: #555;
+    margin-left: 297px;
+    margin-top: 3px;
+}
+.card{
+    border-radius: 1rem;
+    width: 245px;
+    height: 127px;
+    background-color: #e9f4f4;
+    position: absolute;
+    margin-left: 298px;
+    margin-top: 601px;
+}
+.card-top{
+    display: flex;
+}

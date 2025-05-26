@@ -2,59 +2,67 @@ import React from 'react';
 import '../Style/Dashbord.css';
 import { FiSearch, FiBell } from 'react-icons/fi'; 
 import Body from '../Images/Body.svg';
-import lung from '../Images/lung.svg';
-import teeth from '../Images/teeth.svg';
-import bone from '../Images/bone.png';
 import Health from './Health';
+import Activity from './Activity';
+import { healthIndicators } from '../data/healthData'; // ✅ Import mock data
+import AppoinmentMain from '../Appoinment/AppoinmentMain';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
 function Dashbord() {
+
+  const data = [
+  { day: 'Mon', appointments: 3 },
+  { day: 'Tues', appointments: 5 },
+  { day: 'Wed', appointments: 4 },
+  { day: 'Thurs', appointments: 6 },
+  { day: 'Fri', appointments: 2 },
+  { day: 'Sat', appointments: 3 },
+  { day: 'Sun', appointments: 1 },
+];
+
   return (
-    <div>
-    <div className="search-bar-container">
-      <FiSearch className="search-icon" />
-      <input type="text" placeholder="Search..." className='input-field'/>
-      <FiBell className="bell-icon" />
-       </div>
-      <div className='dashbord-name'>
+    <div className="dashboard-container">
+      {/* Search Bar */}
+      <div className="search-bar-container">
+        <FiSearch className="search-icon" />
+        <input type="text" placeholder="Search..." className="input-field" />
+        <FiBell className="bell-icon" />
+      </div>
+
+      {/* Dashboard Heading */}
+      <div className="dashbord-name">
         <span>Dashboard</span>
-         <select id="Date"  className='date'>
-        <option value="apple">This Week</option>
-        <option value="banana">This Month</option>
-        <option value="mango">This Year</option>
-      </select>
+        <select id="Date" className="date">
+          <option value="apple">This Week</option>
+          <option value="banana">This Month</option>
+          <option value="mango">This Year</option>
+        </select>
       </div>
-      <div className='body-pannel'>
-        <img src={Body} alt="" className='images'></img>
+
+      {/* Body Panel */}
+      <div className="body-pannel">
+        <img src={Body} alt="Body Overview" className="images" />
       </div>
-      <div className='card1'>
-   <Health
-  images={lung}
-  parth="Lungs"
-  date="24 Oct 2021"
-  percentage={70}
-/>
-</div>
-<div className='card2'>
-   <Health
-  images={teeth}
-  parth="Teeth"
-  date="24 Oct 2021"
-  percentage={50}
-/>
-</div>
-<div className='card3'>
-   <Health
-  images={bone}
-  parth="Bone"
-  date="24 Oct 2021"
-  percentage={80}
-/>
-</div>
-<div className='details'>
-    <h5>Deatils</h5>
-</div>
+
+      {/* Health Cards */}
+      <div className="health-cards-container">
+        {healthIndicators.map(item => (
+          <div className={`card${item.id}`} key={item.id}>
+            <Health
+              images={item.images}
+              parth={item.parth}
+              date={item.date}
+              percentage={item.percentage}
+            />
+          </div>
+        ))}
+      </div>
+
+      {/* Activity Chart Section */}
+  <Activity/>
     </div>
-  )
+  );
 }
+
 
 export default Dashbord;

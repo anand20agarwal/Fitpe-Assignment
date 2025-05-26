@@ -2,7 +2,7 @@
 .sidebar {
   width: 220px;
   height: 87vh;
-  background-color: #e4e9e9;
+  background-color: #e9f4f4;
   padding: 20px 0;
   margin: 10px;
   margin-top: 10px;
@@ -39,7 +39,16 @@
   padding-left: 30px;
   margin-bottom: 10px;
   margin-left: 20px;
-  margin-top: 20px;
+  margin-top: 10px;
+}
+.section-title1 {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: gray;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-top: 40px;
 }
 .menu {
   display: flex;
@@ -47,7 +56,7 @@
   padding-left: 30px;
   gap: 12px;
   margin-left: 20px;
-  margin-top: 15px;
+  margin-top: 8px;
 }
 .menu-item {
   display: flex;

@@ -36,7 +36,7 @@ const Sidebar = () => {
           <div className="menu-item"><FaChartPie className="icon" /> Statistics</div>
         </div>
 
-        <div className="section-title">Tools</div>
+        <div className="section-title1">Tools</div>
         <div className="menu">
           <div className="menu-item"><FaComments className="icon" /> Chat</div>
           <div className="menu-item"><FaLifeRing className="icon" /> Support</div>

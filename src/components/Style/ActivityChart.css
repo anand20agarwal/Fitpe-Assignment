@@ -1,0 +1,49 @@
+.activity-chart {
+  /* padding-top: 63px; */
+    margin-left: -519px;
+    background-color: #e9f4f4;
+    border-radius: 20px;
+    width: 120px;
+    height: 100px;
+    /* box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05); */
+    margin-top: 20px;
+    background-color: #e9f4f4;
+}
+.activity-chart h3 {
+  font-size: 23px;
+  margin-bottom: 5px;
+}
+.activity-chart p {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.activity-chart-container{
+    margin-left: 305px;
+    background-color: #e9f4f4;
+    border-radius: 20px;
+    width: 537px;
+    height: 116px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    margin-top: 600px;
+
+}
+
+.first-line{
+  display: flex;
+      margin-left: 24px;
+    margin-top: -10px;
+    position: absolute;
+    margin-bottom: -45px;
+}
+
+h4{
+  color: #030b3e;
+}
+
+p{
+  color: #555;
+  margin-left: 300px;
+  font-size: 13px;
+}
