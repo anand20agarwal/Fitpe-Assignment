@@ -3,7 +3,7 @@ import Physio from '../Images/Physio.jpg'
 
 const appointmentData = [
   {
-    type: 'Dental Checkup',
+    type: 'Dental',
     image: teeth,
     time: '09:00 - 11:00',
     doctor: 'Dr. Cameron Williamson'
