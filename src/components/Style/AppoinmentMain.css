@@ -3,7 +3,7 @@
     /* position: absolute; */
     width: 605px;
     height: 721px;
-    background-color: #e9f4f4;
+    background-color: hsl(213.33deg 100% 98.24%);
     border-top-right-radius: 2rem;
     border-bottom-right-radius: 2rem;
     margin-left: 900px;
@@ -37,4 +37,37 @@
     background-color: #162061;
     margin-top: 38px;
     margin-left: 22px;
+}
+
+.year-month{
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 25px;
+    color: #162061;
+    font-size: 19px;
+}
+
+.Upcoming-details{
+    position: absolute;
+}
+
+.Upcoming-details-header{
+    margin-left: 47px;
+    margin-top: 439px;
+    color: #162061;
+}
+
+.Upcoming-details-header-day1{
+     margin-left: 47px;
+    margin-top: 5px;
+    color: rgb(110, 122, 142);
+}
+.Upcoming-details-header-day2{
+     margin-left: 47px;
+    margin-top: 5px;
+    color: rgb(110, 122, 142);
+}
+
+.thursday-data{
+    display: flex;
 }

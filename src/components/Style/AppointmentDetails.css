@@ -1,0 +1,65 @@
+/* .container{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: row;
+} */
+
+.appointment-container {
+  display: flex;
+  flex-direction: row;         /* Arrange items in a row */
+  gap: 1rem;
+  flex-wrap: wrap;             /* Allows wrapping to next row if needed */
+  /* padding: 1rem; */
+  margin-top: 300px;
+  margin-left: 15px;
+  position: absolute;
+  width: auto;
+  height: auto;
+}
+
+.appointment-card {
+  /* background-color: #e9f4f4; */
+  padding: 0.5rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+    background-color: rgb(202, 214, 230);
+    margin-left: 25px;
+    margin-top: 20px;
+
+}
+
+.appointment-img {
+  width: 25px;
+  height: 25px;
+  margin-top: -23px;
+}
+
+.type, .time, .doctor {
+  margin: 0;
+}
+
+.appointment-card.selected {
+  background-color: #162061; /* blue background */
+  color: white;              /* white text */
+}
+
+
+.first-card {
+  background-color: #162061;/* Blue background */
+  color: white;              /* White text */
+}
+
+/* Make sure all text inside first-card turns white */
+.first-card .type,
+.first-card .time,
+.first-card .doctor {
+  color: white;
+}
+
+.type{
+    font-size: 12px;
+    font-weight: 500;
+}

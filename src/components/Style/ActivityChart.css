@@ -1,13 +1,13 @@
 .activity-chart {
   /* padding-top: 63px; */
     margin-left: -519px;
-    background-color: #e9f4f4;
+    /* background-color: #e9f4f4; */
     border-radius: 20px;
     width: 120px;
     height: 100px;
     /* box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05); */
     margin-top: 20px;
-    background-color: #e9f4f4;
+    background-color: hsl(213.33deg 100% 98.24%);
 }
 .activity-chart h3 {
   font-size: 23px;
@@ -42,8 +42,8 @@ h4{
   color: #030b3e;
 }
 
-p{
+.p-appoinment{
   color: #555;
-  margin-left: 300px;
+  margin-left: 290px;
   font-size: 13px;
 }

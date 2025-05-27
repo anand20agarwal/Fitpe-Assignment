@@ -17,7 +17,7 @@ const Activity = () => {
     <div className="activity-chart-container">
       <div className='first-line'>
       <h4>Actvity</h4>
-      <p>3 Appoinment in this week</p></div>
+      <p className='p-appoinment'>3 Appoinment in this week</p></div>
       <ResponsiveContainer width={500} height={100}>
         <BarChart data={data} margin={{ top: 25, right: 0, left: 20, bottom: 0 }}>
           <XAxis dataKey="name" />

@@ -10,7 +10,7 @@ function App() {
      <div className='frame'>
       <Sidebar/>
       <div>
-      <Dashbord />
+      <Dashbord  />
      <AppoinmentMain/>
      </div>
      </div>

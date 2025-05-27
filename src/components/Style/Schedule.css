@@ -1,0 +1,25 @@
+.tables{
+    color: #030b3e;
+    /* margin-left: 10px; */
+    position: absolute;
+    margin-top: 158px;
+    font-size: 12px;
+     border-collapse: separate; 
+  border-spacing: 48px 7px;
+  font-weight: 700;
+}
+
+.dates{
+    font-size: 22px;
+}
+.dark{
+    background-color: #030b3e;
+}
+
+.tables td:nth-child(2),
+.tables th:nth-child(2) {
+  background-color: hsl(213.33deg 100% 98.24%); 
+  color: #000;       
+  border-radius: 5px;     
+}
+

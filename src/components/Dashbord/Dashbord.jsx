@@ -5,8 +5,7 @@ import Body from '../Images/Body.svg';
 import Health from './Health';
 import Activity from './Activity';
 import { healthIndicators } from '../data/healthData'; // ✅ Import mock data
-import AppoinmentMain from '../Appoinment/AppoinmentMain';
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
+
 
 function Dashbord() {
 
@@ -54,6 +53,7 @@ function Dashbord() {
               date={item.date}
               percentage={item.percentage}
             />
+            <h2 className='Healthy Hearth'>Healthy Hearth</h2>
           </div>
         ))}
       </div>

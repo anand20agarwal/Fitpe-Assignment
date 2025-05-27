@@ -41,7 +41,7 @@
     width: 264px;
     height: 414px;
     position: absolute;
-    background-color: #e9f4f4;
+    background-color: hsl(213.33deg 100% 98.24%);
     border-radius: 2rem;
 }
 .input-field{
@@ -91,7 +91,16 @@
 .details:hover{
     font-size: 17px;
 }
-
+ .Healthy Hearth{
+   position: absolute;
+  top: 10px; /* distance from top */
+  left: 10px; /* distance from left */
+  color: white;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.5); /* optional: semi-transparent background */
+  padding: 5px 10px;
+  border-radius: 4px;
+}
 
 
 
@@ -116,6 +125,7 @@
     padding: 6px;
   }
 }
+
 
 
 
